@@ -1,0 +1,35 @@
+<!-- res/layout/popup_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@id/textViewAngle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lingual 15°/à l'horizontal : "
+        android:textSize="18sp"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@id/textViewAngle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vestibulaire à 45 °/à l'horizontal : "
+        android:textSize="18sp"
+        android:layout_below="@id/textViewAngle1"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear Angles"
+        android:layout_below="@id/textViewAngle2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

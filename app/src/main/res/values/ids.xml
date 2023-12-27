@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="select" type="id" />
+    <item name="camera" type="id" />
+    <item name="user_profile" type="id" />
+    <item name="username" type="id" />
+    <item name="role" type="id" />
+    <item name="groupe" type="id" />
+    <item name="number" type="id" />
+    <item name="update" type="id" />
+    <item name="studentId" type="id" />
+    <item name="textViewFirstName" type="id" />
+    <item name="textFirstName" type="id" />
+    <item name="textViewLastName" type="id" />
+    <item name="textLastName" type="id" />
+    <item name="textViewLogin" type="id" />
+    <item name="textLogin" type="id" />
+    <item name="textViewPassword" type="id" />
+    <item name="textPassword" type="id" />
+    <item name="textViewNumber" type="id" />
+    <item name="textNumber" type="id" />
+    <item name="textViewAngle1" type="id" />
+    <item name="textViewAngle2" type="id" />
+    <item name="home" type="id" />
+</resources>
